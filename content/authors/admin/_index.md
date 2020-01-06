@@ -75,4 +75,4 @@ user_groups:
 - Visitors
 ---
 
-I am a research technician and software engineer at the Mobile Perception Systems lab of the Video Coding and Architectures research group at TU/e. My mission is to to contribute to the lab's artificial intelligence research software for autonomous systems (self-driving cars). My interests include machine learning, data science, computer vision, and software engineering of safe control systems.
+I am a research technician and software engineer at the Mobile Perception Systems lab of the Video Coding and Architectures research group at TU/e. My mission is to contribute to the lab's artificial intelligence research software for autonomous systems (self-driving cars). My interests include machine learning, data science, computer vision, and software engineering of safe control systems.

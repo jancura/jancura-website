@@ -94,7 +94,7 @@ address = {street = "Groene Loper 19", city = "Eindhoven", region = "", postcode
 coordinates = {latitude = "51.447302", longitude = "5.492010"} 
 
 # Directions for visitors to locate you.
-directions = "Flux building 5.092"
+directions = "Flux building, Floor 6, Room 6.196"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.

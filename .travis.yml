@@ -1,4 +1,9 @@
 ---
+language: minimal
+
+os:
+  - linux
+
 install:
   - curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | grep  browser_download_url  | grep Linux-64bit.deb | grep extended  | cut -d '"' -f 4 | wget -i -
   - sudo dpkg -i hugo*_Linux-64bit.deb
@@ -7,8 +12,9 @@ script:
   - hugo
 
 deploy:
-  - provider: script
-    script: ./deploy.sh
-    skip_cleanup: true
-    on:
-      branch: master
+  provider: script
+  script: bash ./deploy.sh
+  cleanup: false
+  on:
+    branch: master
+  edge: true

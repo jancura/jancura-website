@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: AI Research & Education Technician
+role: Research & Education Technician
 
 # Organizations/Affiliations
 organizations:
@@ -22,8 +22,8 @@ bio: My research interests include artificial intelligence, computer vision and 
 
 interests:
 - Artificial Intelligence
-- Computer Vision
 - Data Science
+- Computer Vision
 - Autonomous Systems
 - Software Engineering
 
@@ -76,4 +76,4 @@ user_groups:
 - Visitors
 ---
 
-I am a research technician and software engineer at the Mobile Perception Systems lab of the Video Coding and Architectures research group at TU/e. My mission is to contribute to the lab's artificial intelligence research software for autonomous systems (self-driving cars). I am involved in 5G-MOBIX project. My interests include machine learning, data science, computer vision, and software engineering of safe control systems.
+I am a research and education technician at the [Mobile Perception Systems](https://www.tue.nl/en/research/research-groups/mobile-perception-systems-lab/) lab of the [Signal Processing Systems](https://www.tue.nl/en/research/research-groups/signal-processing-systems/) research group at [Department Electrical Engineering](https://www.tue.nl/en/our-university/departments/electrical-engineering/) of [TU/e](https://www.tue.nl/en/). My task is to support the development of the lab's artificial intelligence research software for autonomous systems (self-driving cars) and facilitate  education processes and activities. Also, I am involved in [5G-MOBIX](https://www.5g-mobix.com/) project. 

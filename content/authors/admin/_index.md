@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: AI Research Software Engineer
+role: AI Research & Education Technician
 
 # Organizations/Affiliations
 organizations:
@@ -22,10 +22,11 @@ bio: My research interests include artificial intelligence, computer vision and 
 
 interests:
 - Artificial Intelligence
-- Data Science
-- Software Engineering
 - Computer Vision
+- Data Science
 - Autonomous Systems
+- Software Engineering
+
 
 education:
   courses:

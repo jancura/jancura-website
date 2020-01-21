@@ -12,9 +12,10 @@ script:
   - hugo
 
 deploy:
-  provider: script
-  script: bash ./deploy.sh
+  provider: pages:git
+  local_dir: public
+  repo:  jancura/jancura.github.io 
+  target_branch: master
+  token: $GITHUB_TOKEN
   cleanup: false
-  on:
-    branch: master
   edge: true

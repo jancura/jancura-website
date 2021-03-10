@@ -12,10 +12,18 @@ script:
   - hugo
 
 deploy:
-  provider: pages:git
-  local_dir: public
-  repo:  jancura/jancura.github.io 
-  target_branch: master
-  token: $GITHUB_TOKEN
-  cleanup: false
-  edge: true
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  repo:  jancura/jancura.github.io
+  on:
+    branch: main
+#deploy:
+#  provider: pages:git
+# local_dir: public
+#  repo:  jancura/jancura.github.io 
+#  target_branch: master
+#  token: $GITHUB_TOKEN
+#  cleanup: false
+#  edge: true

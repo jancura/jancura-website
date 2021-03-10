@@ -17,10 +17,11 @@ deploy:
   skip_cleanup: true
   github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep_history: true
-  repo: jancura/jancura.github.io
-  target_branch: master
   on:
-    branch: main
+    repo: jancura/jancura.github.io
+    branches:    # ← new!
+      only:      # ← new!
+        - master # ← new!
 #deploy:
 #  provider: pages:git
 #  local_dir: public

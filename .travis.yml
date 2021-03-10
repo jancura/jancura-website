@@ -13,15 +13,17 @@ script:
 
 deploy:
   provider: pages
+  local_dir: public
   skip_cleanup: true
   github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep_history: true
-  repo:  jancura/jancura.github.io
+  repo: jancura/jancura.github.io
+  target_branch: master
   on:
     branch: main
 #deploy:
 #  provider: pages:git
-# local_dir: public
+#  local_dir: public
 #  repo:  jancura/jancura.github.io 
 #  target_branch: master
 #  token: $GITHUB_TOKEN

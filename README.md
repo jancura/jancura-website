@@ -1,3 +1,4 @@
+[![Board Status](https://jancura.visualstudio.com/3d752d14-ff52-4309-a15f-40058496640a/2ceef85d-5ecf-40a3-8c9f-34fe0e9f1316/_apis/work/boardbadge/56b30271-1cf2-438d-b42c-c097485a79df)](https://jancura.visualstudio.com/3d752d14-ff52-4309-a15f-40058496640a/_boards/board/t/2ceef85d-5ecf-40a3-8c9f-34fe0e9f1316/Microsoft.RequirementCategory)
 # [Academic Kickstart](https://sourcethemes.com/academic/)
 
 **Academic** makes it easy to create a beautiful website for free using Markdown, Jupyter, or RStudio. Customize anything on your site with widgets, themes, and language packs. [Check out the latest demo](https://academic-demo.netlify.com/) of what you'll get in less than 10 minutes, or [view the showcase](https://sourcethemes.com/academic/#expo).
